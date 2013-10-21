@@ -15,7 +15,7 @@ cursor: pointer;
    -ms-box-sizing: border-box;
    -o-box-sizing: border-box;
     box-sizing: border-box;
-	background:url(../images/soc.jpg) 0 repeat fixed;
+	background:url(../images/soc.jpg)  repeat fixed;
 	height:100%;
 	position:relative ;
 	margin: 0 auto;
