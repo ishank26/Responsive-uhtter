@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 }
 html,body{
-background:#ff9900;
+background:#946AB2;
 height: 100%;
 cursor: pointer;
 }
@@ -15,9 +15,9 @@ cursor: pointer;
    -ms-box-sizing: border-box;
    -o-box-sizing: border-box;
     box-sizing: border-box;
-	background:url(../images/soc.jpg)  repeat fixed;
+	background:url(../images/soc.jpg) 0 repeat fixed;
 	height:100%;
-	position:relative ;
+	position:relative;
 	margin: 0 auto;
   }
 .big{
@@ -608,7 +608,7 @@ input[type=submit]:active {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px)  {
 	.big{
 		width:500px;
 		height: 500px;
@@ -649,18 +649,8 @@ input[type=submit]:active {
 		margin-left:10%;
 	}
 	.row{
-		margin-left:2%;
+		margin-left:2%;}
 
-	.desc { 
-     padding-left: 5%;
-     	
-     }
 	
-	 
 }
-
-
-
-
-
 
