@@ -7,20 +7,16 @@ html,body{
 background:#946AB2;
 height: 100%;
 cursor: pointer;
+width: 100%;
 }
-.intro{
-   max-width:100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-   -ms-box-sizing: border-box;
-   -o-box-sizing: border-box;
-    box-sizing: border-box;
-	background-image:url(../images/soc.jpg);
-	background-attachment: fixed;
-	background-repeat: repeat;
+ #intro{
+   width:100%;
+   background:url('../images/soc.jpg') 0 repeat fixed;
+   
 	height:100%;
 	position:relative;
 	margin: 0 auto;
+	
   }
 .big{
 	position: relative;
@@ -104,7 +100,7 @@ height: auto;
     -ms-box-sizing: border-box;
      -o-box-sizing: border-box;
         box-sizing: border-box;
-
+margin-bottom: 20px;
 }
 .desc{
    
@@ -517,7 +513,7 @@ padding: 10px;
 .content p{
 font-size:1em;
 font-family: 'pt_sans_captionregular';
-align:center;
+ text-align:center;
 line-height:1.3em;
 }
 
@@ -527,8 +523,22 @@ input[type=submit]:active {
 	top:5px;
 
 }
+#footer{
+	position: absolute;
+	bottom: -30px;
+    width: 90%;
+    -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+}
+#footer p{
+	line-height: auto;
 
-
+text-align:center;
+color:#ff9900;
+}
 
 
 
@@ -575,6 +585,22 @@ input[type=submit]:active {
 		width:100%;
 	}
 }
+#footer{
+	position: absolute;
+	bottom: -30px;
+    width: 90%;
+    -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+}
+#footer p{
+	line-height: auto;
+
+text-align:center;
+color:#ff9900;
+}
 
 
 @media screen and (max-width: 768px) and (min-width:641px){
@@ -610,7 +636,7 @@ input[type=submit]:active {
 }
 
 
-@media screen and (max-width: 640px)  {
+@media screen and (max-width: 640px) and (min-width:481px)  {
 	.big{
 		width:500px;
 		height: 500px;
@@ -655,4 +681,86 @@ input[type=submit]:active {
 
 	
 }
+
+@media screen and (max-width: 480px){
+  html,body{
+
+
+  }
+ #intro{
+  	width: 480px;
+  	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+     box-sizing: border-box;
+  }  
+
+  .big{
+		width:500px;
+		height: 500px;
+		margin-left:-28%;
+	}
+
+
+	.words{
+		margin-top: -25%;
+		margin-left: 7%;
+	}
+	.words p{
+		font-size: 2.5em;
+	}
+   
+	.contact,.desc,.addons,.mission,.crew,.missioninfo,.contacthead{
+		width: 480px;
+		margin: 0 auto;
+		-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+         box-sizing: border-box;
+
+	}
+	.row{
+		margin-left:-50%;
+	}
+	.form {
+		width:70%;
+		margin-left: -8%;
+	}
+ 
+	.message-holder textarea{
+		height:300px;
+	}
+	.contacthead p{
+		text-align: center;
+	}
+	.submit-holder{
+		width: 100%;
+		margin-left: -10%;
+     }
+     .addons{
+     	padding-left: 130px;
+     }
+    .contact {
+        padding:10%;
+    }
+
+
+	.message-holder{width: 93%;}
+	.team{
+		margin-left:-8%;
+	}
+	
+
+	.desc { 
+     padding-left: 18%;
+     	
+     }
+	
+  
+}
+
+
+
 
