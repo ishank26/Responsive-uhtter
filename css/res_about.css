@@ -11,8 +11,8 @@ width: 100%;
 }
  #intro{
    width:100%;
-   background:url('../images/soc.jpg') 0 repeat fixed;
-   
+   background:url('../images/book.jpg') 0 no-repeat fixed;
+   background-size: cover;
 	height:100%;
 	position:relative;
 	margin: 0 auto;
@@ -21,7 +21,7 @@ width: 100%;
 .big{
 	position: relative;
 	background-image:url(../images/big.png);
-	background-size: cover;
+	background-size: 100%;
 	width:600px;
 	height: 600px;
 	top:-4%;
@@ -688,6 +688,9 @@ color:#ff9900;
 
   }
  #intro{
+ 	background:url('../images/book480.jpg') 0 no-repeat fixed;
+   background-size: cover;
+   height: 100%;
   	width: 480px;
   	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
