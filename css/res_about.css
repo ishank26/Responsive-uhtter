@@ -180,7 +180,7 @@ margin-bottom: 20px;
 .row {
 max-width:300px;
 height:100%;
-background:#2ecc71;
+background:#D3F165;
 display:inline-block;
 overflow:hidden;
 margin-bottom:20px;
@@ -207,12 +207,12 @@ box-shadow:0 0 1.5em #000;
 text-align: center;
 	font-size: 2em
 	font-family: 'open_sansbold';
-	color: #34495e;
+	color: #2F704B;
 }
 .row p{
 	font-size: 1.1em;
 	font-family: 'open_sans_condensedbold';
-	color:#ecf0f1;
+	color:#46295C;
 	margin: 10px;
 }
 .row .icon{
@@ -356,6 +356,7 @@ height: auto;
 input[type=text] {
 height:34px;
 width:90%;
+color: #5BB182;
 background: #2A1832;
 text-decoration:none;
 -moz-border-radius: 5px;
@@ -390,6 +391,7 @@ font-family: 'Open Sans', sans-serif;
 padding:5px 10px;
 font-size:1.1em;
  outline:none;
+ color: #5BB182;
  border :1px solid #74488A;
 -moz-border-radius: 8px;
 -khtml-border-radius: 8px;
@@ -484,13 +486,22 @@ position: relative;
 	margin-top: 10px;
 
 }
-
+#rohit{
+	margin-top: 10px;
+}
 .pic{
 width:150px;
 height:150px;
 margin:20px 80px;  
-background:#ff9900;
-
+}
+#ishank .pic{
+background-image:url(../images/avatars/ishank.jpg) ;
+}
+#rohit .pic{
+  background-image:url(../images/avatars/rohit.jpg) ;
+}
+#yogesh .pic{
+  background-image:url(../images/avatars/yogi.jpg) ;
 }
 .desig h1{
 line-height:30px;
